@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4F11202AD6DC3000DC4E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F111F2AD6DC3000DC4E94 /* AppDelegate.swift */; };
+		CC4F11222AD6DC3000DC4E94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F11212AD6DC3000DC4E94 /* SceneDelegate.swift */; };
+		CC4F11242AD6DC3000DC4E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F11232AD6DC3000DC4E94 /* ViewController.swift */; };
+		CC4F11272AD6DC3000DC4E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4F11252AD6DC3000DC4E94 /* Main.storyboard */; };
+		CC4F11292AD6DC3100DC4E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4F11282AD6DC3100DC4E94 /* Assets.xcassets */; };
+		CC4F112C2AD6DC3100DC4E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4F112A2AD6DC3100DC4E94 /* LaunchScreen.storyboard */; };
+		CC4F11342AD6E4D000DC4E94 /* RockGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F11332AD6E4D000DC4E94 /* RockGenreViewController.swift */; };
+		CCA622212AD81AD800DE9B16 /* Mitski - My Love Mine All Mine.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCA622202AD81AD800DE9B16 /* Mitski - My Love Mine All Mine.wav */; };
+		CCA622232AD81AF900DE9B16 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA622222AD81AF900DE9B16 /* PlaySound.swift */; };
+		CCA622252AD81FFD00DE9B16 /* SongPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA622242AD81FFD00DE9B16 /* SongPreviewViewController.swift */; };
+		CCA622272AD825C000DE9B16 /* Anybody.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCA622262AD825C000DE9B16 /* Anybody.wav */; };
+		CCCE12962AEBCC1C00978A45 /* everlong.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCCE12952AEBCC1C00978A45 /* everlong.wav */; };
+		CCCE12982AEBCC2300978A45 /* smbh.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCCE12972AEBCC2300978A45 /* smbh.wav */; };
+		CCCE129A2AEBCC2B00978A45 /* borderline.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCCE12992AEBCC2B00978A45 /* borderline.wav */; };
+		CCD08D782AE7F2B200774A73 /* Sex Drugs Etc.wav in Resources */ = {isa = PBXBuildFile; fileRef = CCD08D772AE7F2B200774A73 /* Sex Drugs Etc.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC4F111C2AD6DC3000DC4E94 /* stereoBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stereoBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4F111F2AD6DC3000DC4E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4F11212AD6DC3000DC4E94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC4F11232AD6DC3000DC4E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4F11262AD6DC3000DC4E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4F11282AD6DC3100DC4E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4F112B2AD6DC3100DC4E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4F112D2AD6DC3100DC4E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4F11332AD6E4D000DC4E94 /* RockGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockGenreViewController.swift; sourceTree = "<group>"; };
+		CCA622202AD81AD800DE9B16 /* Mitski - My Love Mine All Mine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mitski - My Love Mine All Mine.wav"; sourceTree = "<group>"; };
+		CCA622222AD81AF900DE9B16 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		CCA622242AD81FFD00DE9B16 /* SongPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPreviewViewController.swift; sourceTree = "<group>"; };
+		CCA622262AD825C000DE9B16 /* Anybody.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Anybody.wav; sourceTree = "<group>"; };
+		CCCE12952AEBCC1C00978A45 /* everlong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = everlong.wav; sourceTree = "<group>"; };
+		CCCE12972AEBCC2300978A45 /* smbh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smbh.wav; sourceTree = "<group>"; };
+		CCCE12992AEBCC2B00978A45 /* borderline.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = borderline.wav; sourceTree = "<group>"; };
+		CCD08D772AE7F2B200774A73 /* Sex Drugs Etc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Sex Drugs Etc.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4F11192AD6DC3000DC4E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4F11132AD6DC3000DC4E94 = {
+			isa = PBXGroup;
+			children = (
+				CC4F111E2AD6DC3000DC4E94 /* stereoBuddy */,
+				CC4F111D2AD6DC3000DC4E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4F111D2AD6DC3000DC4E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4F111C2AD6DC3000DC4E94 /* stereoBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4F111E2AD6DC3000DC4E94 /* stereoBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				CC4F111F2AD6DC3000DC4E94 /* AppDelegate.swift */,
+				CC4F11212AD6DC3000DC4E94 /* SceneDelegate.swift */,
+				CC4F11232AD6DC3000DC4E94 /* ViewController.swift */,
+				CC4F11252AD6DC3000DC4E94 /* Main.storyboard */,
+				CC4F11332AD6E4D000DC4E94 /* RockGenreViewController.swift */,
+				CCA622242AD81FFD00DE9B16 /* SongPreviewViewController.swift */,
+				CCA622222AD81AF900DE9B16 /* PlaySound.swift */,
+				CC4F11282AD6DC3100DC4E94 /* Assets.xcassets */,
+				CC4F112A2AD6DC3100DC4E94 /* LaunchScreen.storyboard */,
+				CC4F112D2AD6DC3100DC4E94 /* Info.plist */,
+				CCA622202AD81AD800DE9B16 /* Mitski - My Love Mine All Mine.wav */,
+				CCA622262AD825C000DE9B16 /* Anybody.wav */,
+				CCD08D772AE7F2B200774A73 /* Sex Drugs Etc.wav */,
+				CCCE12952AEBCC1C00978A45 /* everlong.wav */,
+				CCCE12972AEBCC2300978A45 /* smbh.wav */,
+				CCCE12992AEBCC2B00978A45 /* borderline.wav */,
+			);
+			path = stereoBuddy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4F111B2AD6DC3000DC4E94 /* stereoBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4F11302AD6DC3100DC4E94 /* Build configuration list for PBXNativeTarget "stereoBuddy" */;
+			buildPhases = (
+				CC4F11182AD6DC3000DC4E94 /* Sources */,
+				CC4F11192AD6DC3000DC4E94 /* Frameworks */,
+				CC4F111A2AD6DC3000DC4E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stereoBuddy;
+			productName = stereoBuddy;
+			productReference = CC4F111C2AD6DC3000DC4E94 /* stereoBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4F11142AD6DC3000DC4E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CC4F111B2AD6DC3000DC4E94 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CC4F11172AD6DC3000DC4E94 /* Build configuration list for PBXProject "stereoBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4F11132AD6DC3000DC4E94;
+			productRefGroup = CC4F111D2AD6DC3000DC4E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4F111B2AD6DC3000DC4E94 /* stereoBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4F111A2AD6DC3000DC4E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA622272AD825C000DE9B16 /* Anybody.wav in Resources */,
+				CC4F112C2AD6DC3100DC4E94 /* LaunchScreen.storyboard in Resources */,
+				CC4F11292AD6DC3100DC4E94 /* Assets.xcassets in Resources */,
+				CC4F11272AD6DC3000DC4E94 /* Main.storyboard in Resources */,
+				CCCE12982AEBCC2300978A45 /* smbh.wav in Resources */,
+				CCCE129A2AEBCC2B00978A45 /* borderline.wav in Resources */,
+				CCD08D782AE7F2B200774A73 /* Sex Drugs Etc.wav in Resources */,
+				CCCE12962AEBCC1C00978A45 /* everlong.wav in Resources */,
+				CCA622212AD81AD800DE9B16 /* Mitski - My Love Mine All Mine.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4F11182AD6DC3000DC4E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA622252AD81FFD00DE9B16 /* SongPreviewViewController.swift in Sources */,
+				CCA622232AD81AF900DE9B16 /* PlaySound.swift in Sources */,
+				CC4F11242AD6DC3000DC4E94 /* ViewController.swift in Sources */,
+				CC4F11202AD6DC3000DC4E94 /* AppDelegate.swift in Sources */,
+				CC4F11222AD6DC3000DC4E94 /* SceneDelegate.swift in Sources */,
+				CC4F11342AD6E4D000DC4E94 /* RockGenreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC4F11252AD6DC3000DC4E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4F11262AD6DC3000DC4E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4F112A2AD6DC3100DC4E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4F112B2AD6DC3100DC4E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4F112E2AD6DC3100DC4E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC4F112F2AD6DC3100DC4E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4F11312AD6DC3100DC4E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stereoBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.stereoBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4F11322AD6DC3100DC4E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stereoBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.swcsd.stereoBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4F11172AD6DC3000DC4E94 /* Build configuration list for PBXProject "stereoBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4F112E2AD6DC3100DC4E94 /* Debug */,
+				CC4F112F2AD6DC3100DC4E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4F11302AD6DC3100DC4E94 /* Build configuration list for PBXNativeTarget "stereoBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4F11312AD6DC3100DC4E94 /* Debug */,
+				CC4F11322AD6DC3100DC4E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4F11142AD6DC3000DC4E94 /* Project object */;
+}
